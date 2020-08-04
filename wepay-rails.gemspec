@@ -56,7 +56,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<httparty>, [">= 0"])
-      s.add_development_dependency(%q<rails>, ["= 3.1.0"])
+      s.add_development_dependency(%q<rails>, "= 3.2.17")
       s.add_development_dependency(%q<turn>, ["= 0.8.2"])
       s.add_development_dependency(%q<thor>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
@@ -64,7 +64,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rcov>, [">= 0"])
     else
       s.add_dependency(%q<httparty>, [">= 0"])
-      s.add_dependency(%q<rails>, ["= 3.1.0"])
+      s.add_dependency(%q<rails>, "= 3.2.17")
       s.add_dependency(%q<turn>, ["= 0.8.2"])
       s.add_dependency(%q<thor>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
@@ -73,7 +73,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<httparty>, [">= 0"])
-    s.add_dependency(%q<rails>, ["= 3.1.0"])
+    s.add_dependency(%q<rails>, "= 3.2.17")
     s.add_dependency(%q<turn>, ["= 0.8.2"])
     s.add_dependency(%q<thor>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
